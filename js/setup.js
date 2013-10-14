@@ -3,8 +3,10 @@ angular.module('angularjs', ['ui.bootstrap', 'ui']);
 angular.module('angularjs').config(function ($routeProvider) {
 
     $routeProvider.
+        when('/demographics', {templateUrl: 'partial/demographics/demographics.html'}).
+        when('/home', {templateUrl: 'partial/home/home.html'}).
         /* Add New Routes Above */
-        otherwise({redirectTo: '/home'});
+        otherwise({redirectTo: '/404'});
 
 });
 
