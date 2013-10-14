@@ -8,6 +8,7 @@
 
     <!-- CSS from Bower components  -->
     <link href="bower_components/angular-ui/build/angular-ui.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-select/bootstrap-select.css" rel="stylesheet">
 
     <!-- App LESS -->
     <link href="css/app.less" type="text/css" rel="stylesheet/less">
@@ -42,14 +43,20 @@
 <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 <script src="bower_components/moment/min/moment.min.js"></script>
+<script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+<script src="bower_components/bootstrap-select/bootstrap-select.js"></script>
 
 <!-- Main App JS -->
 <script src="js/setup.js"></script>
+
+<!-- Controllers -->
+<script src="controller/AmButtonHeaderController.js"></script>
 
 <!-- Service JS -->
 <!-- Add New Service JS Above -->
 
 <!-- Directive JS -->
+<script src="directive/am-button-header/am-button-header.js"></script>
 <!-- Add New Directive JS Above -->
 
 <!-- Filter JS -->
@@ -62,9 +69,8 @@
 
 <div>
     <div id="content" class="container">
-        <div class="row">
-            <div ng-view>
-            </div>
+        <am-button-header ng-controller="AmButtonHeaderCtrl"></am-button-header>
+        <div ng-view>
         </div>
     </div>
 </div>

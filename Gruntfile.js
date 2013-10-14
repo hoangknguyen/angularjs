@@ -31,7 +31,7 @@ module.exports = function (grunt) {
             options: {
                 jshintrc: '.jshintrc'
             },
-            files: ['js/**/*.js', 'partial/**/*.js', 'service/**/*.js', 'filter/**/*.js', 'directive/**/*.js']
+            files: ['js/**/*.js', 'partial/**/*.js', 'service/**/*.js', 'filter/**/*.js', 'directive/**/*.js', 'controllers/**/*.js']
         },
         clean: {
             before: {
