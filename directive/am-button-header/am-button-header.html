@@ -1,9 +1,9 @@
 <div class="am-border-header">
     <am-border-layout>
-        <select class="left-grp span2" ng-model="selectedItem"
-                ng-options="value.id as value.name for (key, value) in selects" data-style="btn-primary"
+        <select class="left-grp span2" ng-model="data.selectedItem"
+                ng-options="value.id as value.name for (key, value) in data.selects" data-style="btn-primary"
                 bs-select></select>
-        <span class="right-grp">Hello {{username}}!</span>
+        <span class="right-grp">Hello {{data.username}}!</span>
         <button type="button" class="right-grp btn" ng-model="button.active" bs-button>Logout</button>
     </am-border-layout>
 </div>
