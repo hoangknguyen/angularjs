@@ -1,10 +1,10 @@
 <div class="span12" ng-controller="DemographicsCtrl">
     <am-panel panel-title="Client Profile">
         <tabset>
-            <tab heading="Standardize" select="loadProfile()">
-
-            </tab>
             <tab heading="Raw">No Content</tab>
+            <tab heading="Standardize" select="loadProfile()">
+                <am-profile profile-data="profile"></am-profile>
+            </tab>
         </tabset>
     </am-panel>
 </div>
