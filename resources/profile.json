@@ -1,0 +1,24 @@
+{
+    "data": {
+        "id": "123",
+        "clientId": "",
+        "addresses": [
+            {
+                "city": "King of Prussia",
+                "state": "PA",
+                "street1": "Main St",
+                "street2": " Building 2"
+            }
+        ],
+        "phones": [
+            {
+                "number": "11111",
+                "ext": "11"
+            },
+            {
+                "number": "11111",
+                "ext": "02"
+            }
+        ]
+    }
+}

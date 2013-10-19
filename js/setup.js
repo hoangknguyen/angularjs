@@ -6,7 +6,7 @@ angular.module('angularjs').config(function ($routeProvider) {
         when('/demographics', {templateUrl: 'partial/demographics/demographics.html'}).
         when('/home', {templateUrl: 'partial/home/home.html'}).
         /* Add New Routes Above */
-        otherwise({redirectTo: '/404'});
+        otherwise({redirectTo: '/demographics'});
 
 });
 
