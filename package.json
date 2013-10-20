@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "devDependencies": {
         "grunt": "~0.4.1",
+        "less": "~1.4.2",
         "generator-cg-angular": "~1.0.4",
         "grunt-contrib-livereload": "~0.1.2",
         "grunt-regarde": "~0.1.1",
