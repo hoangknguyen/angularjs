@@ -7,17 +7,23 @@
                 "city": "King of Prussia",
                 "state": "PA",
                 "street1": "Main St",
-                "street2": " Building 2"
-            }
-        ],
-        "phones": [
-            {
-                "number": "11111",
-                "ext": "11"
-            },
-            {
-                "number": "11111",
-                "ext": "02"
+                "street2": " Building 2",
+                "phones": [
+                    {
+                        "number": "11111",
+                        "ext": "11"
+                    },
+                    {
+                        "number": "11111",
+                        "ext": "02"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "number": "123123",
+                        "ext": "111"
+                    }
+                ]
             }
         ]
     }

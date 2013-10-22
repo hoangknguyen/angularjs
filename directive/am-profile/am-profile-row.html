@@ -1,4 +1,4 @@
-<div class="am-profile-row">
-    <div class="profile-col profile-col1">{{colTitle}}</div>
-    <div class="profile-col profile-col2">{{colValue}}</div>
+<div class="am-profile-row" ng-repeat="row in renderedRows">
+    <div class="profile-col profile-col1">{{row.colTitle}}</div>
+    <div class="profile-col profile-col2">{{row.colValue}}</div>
 </div>
