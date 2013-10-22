@@ -17,7 +17,7 @@ angular.module('angularjs').factory('$profileService', function ($q, $http) {
 
     profileService.getCurrentProfile = function() {
         return profileService.currentProfile;
-    }
+    };
 
     return profileService;
 });
